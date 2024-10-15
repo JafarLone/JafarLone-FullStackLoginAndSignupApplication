@@ -1,14 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config(); // To load environment variables from .env file
+require('dotenv').config(); // Load environment variables from .env
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors()); // Enable CORS
-app.use(express.json()); // Parse JSON bodies
+app.use(cors()); // Enable Cross-Origin Resource Sharing
+app.use(express.json()); // Parse incoming requests with JSON payloads
 
 // Routes
 const authRoutes = require('./routes/auth');
