@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+@media (max-width: 640px) {
+    h1 {
+      font-size: 24px;
+    }
+    ul {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
+=======
+@media (max-width: 640px) {
+    h1 {
+      font-size: 24px;
+    }
+    ul {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
+>>>>>>> 259d696 (Initial commit)
+  
